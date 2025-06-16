@@ -25,20 +25,11 @@ We approach this with a two-step process:
 2. Prediction Modeling – Use a Linear Regression model to forecast productivity based on social media habits
 
 # 📊 Dataset
-- **Source:** Custom-collected dataset
+- **Source:** kaggle
 
-- **Features:** Time spent (in hours) on WhatsApp, Instagram, YouTube, Facebook, Snapchat
+- **Features:**  perceived_productivity_score(Most influential) , job_satisfaction_score , work_hours_per_day , sleep_hours , weekly_offline_hours
 
 - **Target:** Individual productivity score (continuous numeric value)
-
-# 🔍 Analysis Highlights
-- WhatsApp and YouTube showed stronger negative correlations with productivity
-
-- Moderate usage of Instagram had mixed impacts depending on user behavior
-
-- Regression analysis revealed that even small changes in usage time can affect productivity noticeably
-
-- Simple, interpretable model — ideal for student or personal productivity tracking
 
 # 🧠 Prediction with Linear Regression
 **Why Linear Regression?**
